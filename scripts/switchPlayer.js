@@ -9,7 +9,7 @@ module.exports = (player) => {
     case "sinc":
       return { id: config.ids.sinc, cor: "#4B4A4A" };
     case "marks":
-      return { id: config.ids.marks, cor: "#" };
+      return { id: config.ids.marks, cor: "#40B5AD" };
     case "lucas":
       return { id: config.ids.lucas, cor: "#F3D033" };
     case "inshan":
@@ -21,9 +21,11 @@ module.exports = (player) => {
     case "chico":
       return { id: config.ids.alek, cor: "#DC1B0E" };
     case "ana":
-        return { id: config.ids.ana, cor: "#" };
+        return { id: config.ids.ana, cor: "#006400" };
     case "thiago":
-        return { id: config.ids.thiago, cor: "#7E0A0A" }
+        return { id: config.ids.thiago, cor: "#7E0A0A" };
+    case "ian":
+      return { id: config.ids.ian, cor: "#FFC300" }
     default:
       return { id: 0 };
   }

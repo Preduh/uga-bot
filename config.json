@@ -1,0 +1,26 @@
+{
+    "token": "NzkzNzkxMzM2MTIxMzY4NTg2.X-xZyg.VyJVGnu9QRRpzVZr01CfDu48Qzw",
+    "prefix": "!",
+    "api": "https://oldrpg-api.herokuapp.com",
+
+    "ids": {
+        "karen": "60b51c5ca717ba11cc1cea19",
+        "kevin": "607398912b7f0512c4150b05",
+        "sinc": "607396c42b7f0512c4150b03",
+        "marks": "6073945e4fd38b2f1cdf6862",
+        "lucas": "607398032b7f0512c4150b04",
+        "inshan": "60739a1a2b7f0512c4150b06",
+        "ellenb": "60739be82b7f0512c4150b07",
+        "iury": "6073a0e32b7f0512c4150b08",
+        "alek": "60b83478a89522001598322f",
+        "ana": "60b82bd6a89522001598322e",
+        "thiago": "60b83695a895220015983230"
+    },
+
+    "permissions": {
+        "!pontos": [{
+            "type": "role",
+            "value": "831219924135313448"
+        }]
+    }
+}

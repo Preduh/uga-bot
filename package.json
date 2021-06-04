@@ -1,0 +1,13 @@
+{
+  "name": "uga",
+  "version": "1.0.0",
+  "main": "index.js",
+  "license": "MIT",
+  "scripts": {
+    "start": "nodemon index.js"
+  },
+  "dependencies": {
+    "axios": "^0.21.1",
+    "discord.js": "^12.5.3"
+  }
+}

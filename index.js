@@ -1,6 +1,7 @@
 const Discord = require("discord.js");
 const client = new Discord.Client();
 const config = require("./config.json");
+require("dotenv/config")
 
 const commandsReader = require("./scripts/commandsReader");
 const prefix = config.prefix;
@@ -44,4 +45,4 @@ const verifyPerm = (member, command) => {
     return verification
 }
 
-client.login(config.token);
+client.login(process.env.TOKEN);
